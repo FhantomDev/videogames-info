@@ -1,0 +1,18 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos compilados de TypeScript
+dist/
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos de configuración local
+*.local
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+
+# Ignorar logs
+*.log
