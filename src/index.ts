@@ -1,3 +1,11 @@
-const message = 'Hola mundo';
+import { ServerApp } from "./views/server-app";
 
-console.log(message);
+
+(async () => {
+  await main();
+})();
+
+
+async function main() {
+  ServerApp.run()
+}
